@@ -1,0 +1,27 @@
+<!-- Import Angular FormsModule if not already imported -->
+<!-- <form #form="ngForm"> -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+        <div class="col" *ngFor="let e of list">
+         
+          <div class="card radius-10 border-start border-0 border-3 border-info">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div>
+                  <p class="mb-0 text-secondary">{{ e.Nom }}</p>
+                  <h4 class="my-1 text-info">{{ e.Email }}</h4>
+                  <p class="mb-0 font-13">{{ e.Avis }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="tot==0" >
+            <h2>No avis available.</h2>
+          </div>
+      </div>
+    </div>
+    

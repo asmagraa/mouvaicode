@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #main-footer {
+    background: #000000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    max-width: 600px;
+    font-family: sans-serif;
+    min-height: 150px; /* Ajustez la hauteur minimale selon vos besoins */
+    text-align: justify;
+  }
+  
+  
+  .footer-section h2 {
+    color: #ffa500;
+    margin-bottom: 15px;
+    align-self: stretch; /* Ajoutez cette ligne pour aligner les h2 */
+  }
+  
+  
+  .footer-section p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  .contact{
+    padding-top: 33px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #777;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  

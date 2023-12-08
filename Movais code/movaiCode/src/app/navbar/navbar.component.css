@@ -1,0 +1,73 @@
+.navbar {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 400px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/assets/global warming.jpg');
+}
+.logo {
+  width: 50px;
+  height: auto; 
+  position: absolute;
+
+  left: 8%;
+  transform: translateX(-50%);
+
+}
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 70%;
+
+}
+
+.paragraph-container {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  color: rgb(207, 207, 207);
+  font-size: 20px; 
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 80%; 
+  max-width: 700px; 
+  margin-top: 110px;
+  font-size: 40px;
+}
+
+.navbar ul {
+  margin-top: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(10, 10, 10);
+  border-radius: 60px;
+  padding: 10px;
+  width : 1000px
+}
+
+.navbar a {
+  display: block;
+  color: rgb(207, 207, 207);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.navbar a:hover {
+  color: #fff;
+  font-size: 21px;
+}
